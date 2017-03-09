@@ -12,6 +12,8 @@
 		D63B77301E66C62000200511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63B772E1E66C62000200511 /* Main.storyboard */; };
 		D63B77321E66C62000200511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63B77311E66C62000200511 /* Assets.xcassets */; };
 		D63B77351E66C62000200511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63B77331E66C62000200511 /* LaunchScreen.storyboard */; };
+		D63B773F1E66D39600200511 /* CemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B773E1E66D39600200511 /* CemViewController.swift */; };
+		D63B77411E66D5DB00200511 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63B77401E66D5DB00200511 /* Camera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D63B77311E66C62000200511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D63B77341E66C62000200511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D63B77361E66C62000200511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63B773E1E66D39600200511 /* CemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CemViewController.swift; sourceTree = "<group>"; };
+		D63B77401E66D5DB00200511 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				D63B772A1E66C62000200511 /* AppDelegate.swift */,
+				D63B77401E66D5DB00200511 /* Camera.swift */,
 				D63B772C1E66C62000200511 /* ViewController.swift */,
+				D63B773E1E66D39600200511 /* CemViewController.swift */,
 				D63B772E1E66C62000200511 /* Main.storyboard */,
 				D63B77311E66C62000200511 /* Assets.xcassets */,
 				D63B77331E66C62000200511 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D63B77411E66D5DB00200511 /* Camera.swift in Sources */,
 				D63B772D1E66C62000200511 /* ViewController.swift in Sources */,
+				D63B773F1E66D39600200511 /* CemViewController.swift in Sources */,
 				D63B772B1E66C62000200511 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
